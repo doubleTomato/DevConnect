@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-    const headerItems:string[] = ['Home', 'Blog', 'Project Gallery', 'Profile'];
+    const headerItems:string[] = ['Home', 'Blog', 'Projects', 'Profile'];
     const headerLink:string[] = ['/', '/blog', '/projects', '/profile'];
     return (
         <ul className="flex gap-2 bg-gray-800 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
